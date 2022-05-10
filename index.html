@@ -5,66 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Discord</title>
 </head>
 <body>
 
 <!-- HEADER WITH  LOGO, MENù AND LOGIN -->
     <header> 
-        <div class="flex-container head-container">
-            <div class="logo">Logo</div>
-            <nav class="menù">
-                <ul class="ul-flex">
-                    <li><a href="#">link</a></li>
-                    <li><a href="#">link</a></li>
-                    <li><a href="#">link</a></li>
-                    <li><a href="#">link</a></li>
-                    <li><a href="#">link</a></li>
-                </ul>
-            </nav>
-            <div class="login">Login</div>
-        </div>
+        <section class="top-bar">
+            <div class="flex-container head-container">
+                <div class="logo"><img src="./img/logo.svg" alt="discord-logo"></div>
+                <nav class="menù">
+                    <ul class="ul-flex">
+                        <li><a href="#">Scarica</a></li>
+                        <li><a href="#">Perché Discord</a></li>
+                        <li><a href="#">Nitro</a></li>
+                        <li><a href="#">Sicurezza</a></li>
+                        <li><a href="#">Assistenza</a></li>
+                    </ul>
+                </nav>
+                <div class="login"><a href="#">Login</a></div>
+            </div>
+        </section>
+
+<!-- HERO -->
+        <section class="hero-padding herobg">
+            <div class="hero flex-container">
+                <div class="hero-content">
+                    <h1>Il tuo posto per parlare</h1>
+                    <p>Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale,
+                        o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme,
+                        Discrod rendere più facile chiaccherare ogni giorno e ritrovarsi più spesso.
+                    </p>
+                    <div class="button-hero flex-container"">
+                        <span><a class="mac-button" href="#">Scarica per Mac</a></span>
+                        <span><a class="discord-button" href="#">Apri Discord nel tuo Browser</a></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </header>
 
-    <!-- MAIN WITH 6 SECTIONS-->
+    <!-- MAIN WITH 4 SECTIONS-->
     <main>
-    <!-- SECTION 1 -->
-        <section class="section bluebg flex-container">
-            <div class="sec1-box"></div>
+
+    <!-- SECTION IMG-TEXT -->
+        <section class="padding">
+            <div class="flex-container">
+                <div class="img"></div>
+                <div class="text"></div>
+            </div>
         </section>
 
-    <!-- SECTION 2 -->
-        <section class="section flex-container">
-            <div class="img"></div>
-            <div class="text"></div>
+    <!-- SECTION TEXT-IMG -->
+        <section class="padding greybg">
+            <div class="flex-container">
+                <div class="text"></div>
+                <div class="img"></div>
+            </div>
         </section>
 
-    <!-- SECTION 3 -->
-        <section class="section greybg flex-container">
-            <div class="text"></div>
-            <div class="img"></div>
+    <!-- SECTION IMG-TEXT -->
+        <section class="padding">
+            <div class="flex-container">
+                <div class="img"></div>
+                <div class="text"></div>
+            </div>
         </section>
 
-    <!-- SECTION 4 -->
-        <section class="section flex-container">
-            <div class="img"></div>
-            <div class="text"></div>
-        </section>
-
-    <!-- SECTION 5 -->
-        <section class="section greybg flex-container">
-            <div class="sec5-box"></div>
-        </section>
-
-    <!-- SECTION 6 -->
-        <section class="section blackbg flex-container">
-            <div class="sec6-box1"></div>
-            <div class="sec6-box2">
-                <div class="sec6-box2-items flex-container">
-                <div class="item1"></div>
-                <div class="item2"></div>
-                <div class="item3"></div>
-                <div class="item4"></div>
+    <!-- SECTION BIG BOX -->
+        <section class="padding greybg">
+            <div class="flex-container">
+                <div class="sec5-box"></div>
             </div>
         </section>
     </main>
@@ -73,6 +88,21 @@
 
 <!-- FOOTER -->
     <footer>
+
+<!-- SECTION FOOTER MENù -->
+        <section class="padding blackbg">
+            <div class="flex-container">
+                <div class="sec6-box1"></div>
+                <div class="sec6-box2">
+                    <div class="item1"></div>
+                    <div class="item2"></div>
+                    <div class="item3"></div>
+                    <div class="item4"></div>
+                </div>
+            </div>
+        </section>
+
+<!-- FOOTER -->
         <div class="flex-container footer-container">
             <div class="logo2">Logo</div>
             <div class="button">Bottone</div>

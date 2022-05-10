@@ -7,35 +7,34 @@
 .flex-container{
     display:flex;
     justify-content: center;
-    width: 80%;
     margin: 0 auto;
+    width: 80%;
 }
 
 
 /* HEADER CSS */
-header{
+
+.top-bar{
     padding: 10px;
-    background-color: aqua;
+    background-color: #2a5ee8;
+    
 }
 
 .head-container{
-    background-color: rgb(244, 156, 156);
+    background-color: #2a5ee8;
     margin: 0 auto;
     width: 80%;
-
+    border: #000 solid 1px;
 }
 
 .logo{
     flex-grow: 1;
     padding:10px;
-    border: 1px black dashed;
 }
 
 .menù{
     flex-grow: 3;
     padding: 10px;
-    border: 1px black dashed;
-   
 }
 
 .ul-flex {
@@ -45,40 +44,91 @@ header{
 }
 
 li{
-    margin: 0px 5px;
+    margin: 0px 20px;
+    align-content: center;
 }
 
 li > a {
     text-decoration: none;
+    color: #fff;
+
 }
 
 .login{
     flex-grow:1;
     text-align: end;
     padding: 10px;
-    border: 1px black dashed;
+    background-color: #fff;
+    border-radius: 50px;
 }
 
-/* MAIN WITH 6 SECTIONS CSS */
+.login > a{
+    text-decoration: none;
+    color: #000;
+}
 
-/* SECTION 1 */
+/* HERO */
 
-.section{
+.padding {
     padding: 40px 0px;
 }
 
-.bluebg{
-    background-color: blue;
+.hero-padding{
+    padding: 130px 0px;
 }
 
-.sec1-box{
-    width: 65%;
-    background-color: rgb(216, 101, 206);
-    height: 500px;
-    border: 2px dashed black;
-} 
+.herobg {
+    background-color: #2a5ee8;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
 
-/* SECTION 2-3-4 */
+.hero-content {
+    width: 58%;
+    border: #000 solid 1px;
+}
+
+.hero-content h1 {
+    color:#fff;
+    text-align: center;
+    padding:20px;
+    font-size: 40px;
+}
+
+ .hero-content p {
+     color: #fff;
+     text-align: center;
+     line-height: 35px;
+ }
+
+ .button-hero{
+    padding: 30px 0px;
+    
+ }
+
+.mac-button{
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 50px;
+    color: #000;
+    padding:15px;
+    margin-right: 10px;
+}
+
+.discord-button{
+    text-decoration: none;
+    background-color: #000;
+    border-radius: 50px;
+    color: #fff;
+    padding: 15px;
+    margin-left: 10px;
+}
+
+/* MAIN WITH 4 SECTIONS CSS */
+
+
+
+/* SECTION IMG-TEXT, TEXT-IMG, IMG-TEXT */
 
 .greybg{
     background-color: rgb(136, 135, 135);
@@ -86,71 +136,69 @@ li > a {
 
 .img{
     height: 500px;
-    width: 50%;
+    width: 60%;
     background-color: rgb(101, 126, 227);
-    border: 2px dashed black;
 }
 
 .text{
     height: 500px;
-    width: 30%;
+    width: 40%;
     background-color: rgb(238, 189, 234);
-    border: 2px dashed black;
-
 }
 
-/* SECTION 5 */
+/* SECTION BIG BOX */
 
 .sec5-box{
-    width: 80%;
+    width: 100%;
     height: 1000px;
     background-color: green;
-    border: 2px dashed black;
+   
 }
 
-/* SECTION 6 */
+/* SECTION FOOTER MENù */
 
 .blackbg{
     background-color: rgb(19, 33, 24);
 }
 
 .sec6-box1{
-    border: 2px dashed black;
-    width: 20%;
+   
+    width: 30%;
     height: 700px;
     background-color: rgb(240, 86, 86);
 }
 
 .sec6-box2{
-    border: 2px dashed black;
-    width: 60%;
+   
+    width: 70%;
     height: 700px;
     background-color: aquamarine;
+    display: flex;
 }
 
 .item1{
     /* background-color: bisque; */
-    border: 2px dashed white;
+    
     width: 100%;
     height:700px;
 }
 
 .item2{
     /* background-color: rgb(165, 115, 55); */
-    border: 2px dashed white;
+    
     width: 100%;
     height: 700px;
 }
 
 .item3{
     /* background-color: rgb(234, 156, 61); */
-    border: 2px dashed white;
+    
     width: 100%;
     height: 700px;
 }
 
 .item4{
-     border: 2px dashed white;
+     
     width: 100%;
     height: 700px;
 }
@@ -176,19 +224,19 @@ footer{
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-    border: 2px dashed black;
+   
 }
 
 .logo2{
     margin: 10px 10px 10px 0px;
     background-color: salmon;
-    border: 2px dashed black;
+   
 }
 
 .button{
     margin: 10px 0px 10px 10px;
     background-color: salmon;
-    border: 2px dashed black;
+   
 }
 
 
