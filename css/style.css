@@ -24,12 +24,12 @@
     background-color: #2a5ee8;
     margin: 0 auto;
     width: 80%;
-    border: #000 solid 1px;
+    
 }
 
 .logo{
     flex-grow: 1;
-    padding:10px;
+    padding:20px 0px;
 }
 
 .menù{
@@ -43,28 +43,28 @@
     justify-content: center;
 }
 
-li{
-    margin: 0px 20px;
-    align-content: center;
-}
-
-li > a {
+.nav-element {
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
     text-decoration: none;
     color: #fff;
-
 }
 
 .login{
     flex-grow:1;
     text-align: end;
     padding: 10px;
-    background-color: #fff;
-    border-radius: 50px;
 }
 
-.login > a{
+.login-button{
     text-decoration: none;
+    background-color: #fff;
+    border-radius: 50px;
     color: #000;
+    padding: 15px;
+    display: inline-block;
+    font-size: 15px;
 }
 
 /* HERO */
@@ -85,7 +85,6 @@ li > a {
 
 .hero-content {
     width: 58%;
-    border: #000 solid 1px;
 }
 
 .hero-content h1 {
@@ -104,6 +103,10 @@ li > a {
  .button-hero{
     padding: 30px 0px;
     
+ }
+
+ .fa-solid {
+    margin-right: 5px;
  }
 
 .mac-button{
