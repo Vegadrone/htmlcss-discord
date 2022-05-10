@@ -173,6 +173,10 @@
    text-align: center;
 }
 
+.big-box-img{
+    padding-bottom: 60px;
+}
+
 .big-box h2{
     font-size: 40px;
     padding: 20px 0px;
@@ -181,11 +185,16 @@
 .big-box p{
     line-height: 30px;
 }
+.bg-container {
+    background-image: url(../img/stars.svg);
+    background-size: contain; 
+
+}
 
 .big-box h3 {
-    margin-top:60px;
-    background-image: url(../img/stars.svg);    
+    margin-top: 60px;
 }
+
 
 .button-container {
     padding: 30px 0px;
